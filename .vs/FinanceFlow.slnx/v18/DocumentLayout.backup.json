@@ -1,0 +1,866 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\dtos\\departmentbudgetresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\dtos\\departmentbudgetresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\dtos\\expenseclaimresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\dtos\\expenseclaimresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\services\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\services\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\repositories\\iexpenseclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\repositories\\iexpenseclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\repositories\\expenseclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\repositories\\expenseclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\repositories\\expensecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\repositories\\expensecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\dtos\\expenseclaimrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\dtos\\expenseclaimrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\models\\expenseclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\models\\expenseclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\services\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\services\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\services\\ibudgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\services\\ibudgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\repositories\\idepartmentbudgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\repositories\\idepartmentbudgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\repositories\\departmentbudgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\repositories\\departmentbudgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\dtos\\departmentbudgetrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\dtos\\departmentbudgetrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\models\\departmentbudget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\models\\departmentbudget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\services\\expensecategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\services\\expensecategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\services\\iexpensecategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\services\\iexpensecategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\repositories\\iexpensecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\repositories\\iexpensecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\dtos\\expensecategoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\dtos\\expensecategoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\services\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\services\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\repositories\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\repositories\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\dtos\\departmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\dtos\\departmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\dtos\\expensecategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\dtos\\expensecategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\models\\expensecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\models\\expensecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\dtos\\departmentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\dtos\\departmentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\dtos\\employeeresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\dtos\\employeeresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\dtos\\employeerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\dtos\\employeerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\models\\expensestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\models\\expensestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\migrations\\20260701165110_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\migrations\\20260701165110_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\services\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\services\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|c:\\users\\rajak\\source\\repos\\financeflow\\financeflow\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41D86819-ACE7-1E3D-F267-C669EFFE8E7E}|FinanceFlow\\FinanceFlow.csproj|solutionrelative:financeflow\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExpenseService.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\ExpenseService.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Services\\ExpenseService.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\ExpenseService.cs",
+              "RelativeToolTip": "FinanceFlow\\Services\\ExpenseService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwGgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:05:54.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IExpenseService.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\IExpenseService.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Services\\IExpenseService.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\IExpenseService.cs",
+              "RelativeToolTip": "FinanceFlow\\Services\\IExpenseService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:05:26.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExpenseClaimResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\ExpenseClaimResponseDto.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\DTOs\\ExpenseClaimResponseDto.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\ExpenseClaimResponseDto.cs",
+              "RelativeToolTip": "FinanceFlow\\DTOs\\ExpenseClaimResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:40:44.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentBudgetResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\DepartmentBudgetResponseDto.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\DTOs\\DepartmentBudgetResponseDto.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\DepartmentBudgetResponseDto.cs",
+              "RelativeToolTip": "FinanceFlow\\DTOs\\DepartmentBudgetResponseDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:41:50.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IExpenseClaimRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\IExpenseClaimRepository.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Repositories\\IExpenseClaimRepository.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\IExpenseClaimRepository.cs",
+              "RelativeToolTip": "FinanceFlow\\Repositories\\IExpenseClaimRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T10:55:16.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExpenseClaimRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\ExpenseClaimRepository.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Repositories\\ExpenseClaimRepository.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\ExpenseClaimRepository.cs",
+              "RelativeToolTip": "FinanceFlow\\Repositories\\ExpenseClaimRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T10:55:58.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExpenseCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\ExpenseCategoryRepository.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Repositories\\ExpenseCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\ExpenseCategoryRepository.cs",
+              "RelativeToolTip": "FinanceFlow\\Repositories\\ExpenseCategoryRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:03:00.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Controllers\\ExpenseController.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "FinanceFlow\\Controllers\\ExpenseController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:16:07.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExpenseClaimRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\ExpenseClaimRequestDto.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\DTOs\\ExpenseClaimRequestDto.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\ExpenseClaimRequestDto.cs",
+              "RelativeToolTip": "FinanceFlow\\DTOs\\ExpenseClaimRequestDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:37:35.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExpenseClaim.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\ExpenseClaim.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Models\\ExpenseClaim.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\ExpenseClaim.cs",
+              "RelativeToolTip": "FinanceFlow\\Models\\ExpenseClaim.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T10:11:09.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BudgetService.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\BudgetService.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Services\\BudgetService.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\BudgetService.cs",
+              "RelativeToolTip": "FinanceFlow\\Services\\BudgetService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:09:02.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBudgetService.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\IBudgetService.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Services\\IBudgetService.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\IBudgetService.cs",
+              "RelativeToolTip": "FinanceFlow\\Services\\IBudgetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:08:36.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IDepartmentBudgetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\IDepartmentBudgetRepository.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Repositories\\IDepartmentBudgetRepository.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\IDepartmentBudgetRepository.cs",
+              "RelativeToolTip": "FinanceFlow\\Repositories\\IDepartmentBudgetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T10:57:19.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DepartmentBudgetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\DepartmentBudgetRepository.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Repositories\\DepartmentBudgetRepository.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\DepartmentBudgetRepository.cs",
+              "RelativeToolTip": "FinanceFlow\\Repositories\\DepartmentBudgetRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvzgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T10:57:46.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BudgetController.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Controllers\\BudgetController.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Controllers\\BudgetController.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Controllers\\BudgetController.cs",
+              "RelativeToolTip": "FinanceFlow\\Controllers\\BudgetController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:19:20.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DepartmentBudgetRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\DepartmentBudgetRequestDto.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\DTOs\\DepartmentBudgetRequestDto.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\DepartmentBudgetRequestDto.cs",
+              "RelativeToolTip": "FinanceFlow\\DTOs\\DepartmentBudgetRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:39:18.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DepartmentBudget.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\DepartmentBudget.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Models\\DepartmentBudget.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\DepartmentBudget.cs",
+              "RelativeToolTip": "FinanceFlow\\Models\\DepartmentBudget.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA0wB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T10:10:07.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "FinanceFlow\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:22:39.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ExpenseCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\ExpenseCategoryService.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Services\\ExpenseCategoryService.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\ExpenseCategoryService.cs",
+              "RelativeToolTip": "FinanceFlow\\Services\\ExpenseCategoryService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:14:06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IExpenseCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\IExpenseCategoryService.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Services\\IExpenseCategoryService.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\IExpenseCategoryService.cs",
+              "RelativeToolTip": "FinanceFlow\\Services\\IExpenseCategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:13:32.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IExpenseCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\IExpenseCategoryRepository.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Repositories\\IExpenseCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\IExpenseCategoryRepository.cs",
+              "RelativeToolTip": "FinanceFlow\\Repositories\\IExpenseCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:02:34.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ExpenseCategoryResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\ExpenseCategoryResponseDto.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\DTOs\\ExpenseCategoryResponseDto.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\ExpenseCategoryResponseDto.cs",
+              "RelativeToolTip": "FinanceFlow\\DTOs\\ExpenseCategoryResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:44:32.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "FinanceFlow\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:21:18.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Services\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "FinanceFlow\\Services\\DepartmentService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:12:34.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Services\\IDepartmentService.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\IDepartmentService.cs",
+              "RelativeToolTip": "FinanceFlow\\Services\\IDepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:11:56.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "FinanceFlow\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:01:03.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Repositories\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\IDepartmentRepository.cs",
+              "RelativeToolTip": "FinanceFlow\\Repositories\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:00:32.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DepartmentResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\DepartmentResponseDto.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\DTOs\\DepartmentResponseDto.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\DepartmentResponseDto.cs",
+              "RelativeToolTip": "FinanceFlow\\DTOs\\DepartmentResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:43:24.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ExpenseCategoryRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\ExpenseCategoryRequestDto.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\DTOs\\ExpenseCategoryRequestDto.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\ExpenseCategoryRequestDto.cs",
+              "RelativeToolTip": "FinanceFlow\\DTOs\\ExpenseCategoryRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:43:57.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ExpenseCategory.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\ExpenseCategory.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Models\\ExpenseCategory.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\ExpenseCategory.cs",
+              "RelativeToolTip": "FinanceFlow\\Models\\ExpenseCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T10:09:25.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DepartmentRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\DepartmentRequestDto.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\DTOs\\DepartmentRequestDto.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\DepartmentRequestDto.cs",
+              "RelativeToolTip": "FinanceFlow\\DTOs\\DepartmentRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:42:41.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\Department.cs",
+              "RelativeToolTip": "FinanceFlow\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T10:08:22.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "FinanceFlow\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T14:50:22.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "FinanceFlow\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T14:46:40.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "FinanceFlow\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T14:29:06.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Program.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Program.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Program.cs",
+              "RelativeToolTip": "FinanceFlow\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T10:40:36.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\Employee.cs",
+              "RelativeToolTip": "FinanceFlow\\Models\\Employee.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T14:20:24.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EmployeeResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\EmployeeResponseDto.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\DTOs\\EmployeeResponseDto.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\EmployeeResponseDto.cs",
+              "RelativeToolTip": "FinanceFlow\\DTOs\\EmployeeResponseDto.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T14:37:52.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Services\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\IEmployeeService.cs",
+              "RelativeToolTip": "FinanceFlow\\Services\\IEmployeeService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T14:49:20.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ExpenseStatus.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\ExpenseStatus.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Models\\ExpenseStatus.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\ExpenseStatus.cs",
+              "RelativeToolTip": "FinanceFlow\\Models\\ExpenseStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:31:48.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EmployeeRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\EmployeeRequestDto.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\DTOs\\EmployeeRequestDto.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\EmployeeRequestDto.cs",
+              "RelativeToolTip": "FinanceFlow\\DTOs\\EmployeeRequestDto.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T14:37:15.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "FinanceFlow\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:28:36.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Models\\UserRole.cs",
+              "RelativeToolTip": "FinanceFlow\\Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T13:59:07.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\appsettings.json",
+              "RelativeDocumentMoniker": "FinanceFlow\\appsettings.json",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\appsettings.json",
+              "RelativeToolTip": "FinanceFlow\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-30T10:37:27.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20260701165110_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Migrations\\20260701165110_InitialCreate.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Migrations\\20260701165110_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Migrations\\20260701165110_InitialCreate.cs",
+              "RelativeToolTip": "FinanceFlow\\Migrations\\20260701165110_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T16:51:10.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\LoginService.cs",
+              "RelativeToolTip": "FinanceFlow\\Services\\LoginService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:27:50.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\ILoginService.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Services\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Services\\ILoginService.cs",
+              "RelativeToolTip": "FinanceFlow\\Services\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:27:16.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "FinanceFlow\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:24:03.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\DTOs\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\DTOs\\LoginRequestDto.cs",
+              "RelativeToolTip": "FinanceFlow\\DTOs\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:23:27.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "FinanceFlow\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "FinanceFlow\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T14:46:01.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FinanceFlow\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\rajak\\source\\repos\\FinanceFlow\\FinanceFlow\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FinanceFlow\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-30T12:05:14.715Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
