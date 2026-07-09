@@ -1,0 +1,72 @@
+<div class="employee-page">
+  <div class="page-top">
+    <div>
+      <h2>Employees</h2>
+      <p>Manage employee records in FinanceFlow</p>
+    </div>
+
+    <button class="btn add-btn" routerLink="/dashboard/employees/add">
+      <i class="bi bi-plus-circle"></i>
+      Add Employee
+    </button>
+  </div>
+
+  <div class="employee-card">
+    <div *ngIf="errorMessage" class="alert alert-danger mb-3">
+      {{ errorMessage }}
+    </div>
+
+    <div class="table-responsive">
+      <table class="table employee-table align-middle mb-0">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Employee Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Department</th>
+            <th>Role</th>
+            <th>Status</th>
+            <th class="text-center">Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <ng-container *ngIf="employees$ | async as employees">
+            <tr *ngIf="employees.length === 0">
+              <td colspan="8" class="text-center py-4">No employees found</td>
+            </tr>
+
+            <tr *ngFor="let emp of employees">
+              <td>{{ emp.employeeId }}</td>
+              <td class="fw-semibold">{{ emp.employeeName }}</td>
+              <td>{{ emp.email }}</td>
+              <td>{{ emp.phoneNumber }}</td>
+              <td>{{ emp.departmentName }}</td>
+              <td>{{ getRoleName(emp.role) }}</td>
+              <td>
+                <span class="status-badge" [ngClass]="emp.isActive ? 'active' : 'inactive'">
+                  {{ getStatusText(emp.isActive) }}
+                </span>
+              </td>
+              <td class="text-center">
+                <button
+  class="btn btn-sm action-btn edit-btn me-2"
+  [routerLink]="['/dashboard/employees/edit', emp.employeeId]"
+  [disabled]="!emp.isActive">
+  <i class="bi bi-pencil-square"></i>
+</button>
+
+                <button
+                  class="btn btn-sm action-btn delete-btn"
+                  (click)="deleteEmployee(emp.employeeId)">
+                  <i class="bi bi-trash3"></i>
+                </button>
+              </td>
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

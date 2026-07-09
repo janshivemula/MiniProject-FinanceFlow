@@ -1,0 +1,35 @@
+<div class="category-form-page">
+  <div class="form-card">
+    <div class="form-header">
+      <h2>{{ isEditMode ? 'Edit Expense Category' : 'Add Expense Category' }}</h2>
+      <p>{{ isEditMode ? 'Update category details' : 'Create a new expense category' }}</p>
+    </div>
+
+    <div *ngIf="submitError" class="alert alert-danger">
+      {{ submitError }}
+    </div>
+
+    <form [formGroup]="categoryForm" (ngSubmit)="onSubmit()">
+      <div class="mb-3">
+        <label class="form-label">Category Name</label>
+        <input type="text" class="form-control" formControlName="categoryName" />
+
+        <div class="text-danger mt-1" *ngIf="f['categoryName'].touched && f['categoryName'].invalid">
+          <small *ngIf="f['categoryName'].errors?.['required']">Category name is required</small>
+          <small *ngIf="f['categoryName'].errors?.['minlength']">Minimum 3 characters required</small>
+          <small *ngIf="f['categoryName'].errors?.['maxlength']">Maximum 50 characters allowed</small>
+        </div>
+      </div>
+
+      <div class="d-flex gap-2 mt-4">
+        <button type="submit" class="btn save-btn" [disabled]="loading">
+          {{ loading ? 'Saving...' : (isEditMode ? 'Update Category' : 'Add Category') }}
+        </button>
+
+        <button type="button" class="btn cancel-btn" routerLink="/dashboard/expense-categories">
+          Cancel
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,65 @@
+<div class="budget-form-page">
+  <div class="form-top">
+    <div>
+      <h2>{{ isEditMode ? 'Edit Department Budget' : 'Add Department Budget' }}</h2>
+      <p>{{ isEditMode ? 'Update budget details' : 'Create a new department budget' }}</p>
+    </div>
+  </div>
+
+  <div class="budget-form-card">
+    <form [formGroup]="budgetForm" (ngSubmit)="onSubmit()">
+      <div *ngIf="submitError" class="alert alert-danger">
+        {{ submitError }}
+      </div>
+
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label">Department</label>
+          <select class="form-select" formControlName="departmentId">
+            <option value="">Select Department</option>
+            <option *ngFor="let dept of departments" [value]="dept.id">
+              {{ dept.departmentName }}
+            </option>
+          </select>
+          <small class="text-danger" *ngIf="f['departmentId'].touched && f['departmentId'].invalid">
+            Department is required
+          </small>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Month</label>
+          <input type="number" class="form-control" formControlName="month" min="1" max="12" />
+          <small class="text-danger" *ngIf="f['month'].touched && f['month'].invalid">
+            Month must be between 1 and 12
+          </small>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Year</label>
+          <input type="number" class="form-control" formControlName="year" />
+          <small class="text-danger" *ngIf="f['year'].touched && f['year'].invalid">
+            Year is required
+          </small>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Budget Amount</label>
+          <input type="number" class="form-control" formControlName="budgetAmount" />
+          <small class="text-danger" *ngIf="f['budgetAmount'].touched && f['budgetAmount'].invalid">
+            Budget amount must be greater than 0
+          </small>
+        </div>
+      </div>
+
+      <div class="form-actions mt-4">
+        <button type="button" class="btn cancel-btn" routerLink="/dashboard/department-budgets">
+          Cancel
+        </button>
+
+        <button type="submit" class="btn save-btn" [disabled]="loading">
+          {{ loading ? 'Saving...' : (isEditMode ? 'Update Budget' : 'Add Budget') }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

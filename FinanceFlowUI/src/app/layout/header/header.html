@@ -1,0 +1,23 @@
+<div class="header-bar">
+  <div>
+    <h3>Welcome back 👋</h3>
+    <p>Manage expenses, budgets and approvals from one place</p>
+  </div>
+
+  <div class="header-right">
+    <div class="user-badge">
+      <div class="avatar">
+        {{ userName.charAt(0) }}
+      </div>
+      <div>
+        <h6>{{ userName }}</h6>
+        <span>{{ roleName }}</span>
+      </div>
+    </div>
+
+    <button class="btn logout-btn" (click)="logout()">
+      <i class="bi bi-box-arrow-right"></i>
+      Logout
+    </button>
+  </div>
+</div>

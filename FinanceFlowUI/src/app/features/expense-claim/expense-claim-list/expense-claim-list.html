@@ -1,0 +1,111 @@
+<div class="expense-page">
+  <div class="page-top">
+    <div>
+      <h2>Expense Claims</h2>
+      <p>Manage expense claims in FinanceFlow</p>
+    </div>
+
+    <button class="btn add-btn" routerLink="/dashboard/expense-claims/add">
+      <i class="bi bi-plus-circle"></i>
+      Add Expense Claim
+    </button>
+  </div>
+
+  <div class="expense-card">
+    <div *ngIf="loading" class="state-box">
+      Loading expense claims...
+    </div>
+
+    <div *ngIf="!loading && errorMessage" class="alert alert-danger mb-0">
+      {{ errorMessage }}
+    </div>
+
+    <div class="table-responsive" *ngIf="!loading && !errorMessage">
+      <table class="table expense-table align-middle mb-0">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Employee</th>
+            <th>Department</th>
+            <th>Category</th>
+            <th>Amount</th>
+            <th>Expense Date</th>
+            <th>Status</th>
+            <th>Remark</th>
+            <th>Approved By</th>
+            <th>Approved Date</th>
+            <th class="text-center">Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngIf="claims.length === 0">
+            <td colspan="11" class="text-center py-4">No expense claims found</td>
+          </tr>
+
+          <tr *ngFor="let claim of claims">
+            <td>{{ claim.id }}</td>
+            <td>{{ claim.employeeName }}</td>
+            <td>{{ claim.departmentName }}</td>
+            <td>{{ claim.expenseCategoryName }}</td>
+            <td>{{ claim.amount }}</td>
+            <td>{{ claim.expenseDate | date:'dd-MM-yyyy' }}</td>
+            <td>
+              <span
+                class="status-badge"
+                [ngClass]="{
+                  'pending': claim.status === 'Pending',
+                  'approved': claim.status === 'Approved',
+                  'rejected': claim.status === 'Rejected'
+                }"
+              >
+                {{ claim.status }}
+              </span>
+            </td>
+            <td>{{ claim.reviewRemark || '-' }}</td>
+            <td>{{ claim.approvedBy || '-' }}</td>
+            <td>{{ claim.approvedDate ? (claim.approvedDate | date:'dd-MM-yyyy hh:mm a') : '-' }}</td>
+
+            <td class="text-center">
+              <!-- Edit -->
+              <button
+                *ngIf="canEditOrDelete(claim)"
+                class="btn btn-sm action-btn edit-btn me-2"
+                [routerLink]="['/dashboard/expense-claims/edit', claim.id]"
+              >
+                <i class="bi bi-pencil-square"></i>
+              </button>
+
+              <!-- Delete -->
+              <button
+                *ngIf="canEditOrDelete(claim)"
+                class="btn btn-sm action-btn delete-btn me-2"
+                (click)="deleteClaim(claim.id)"
+              >
+                <i class="bi bi-trash3"></i>
+              </button>
+
+              <!-- Approve -->
+              <button
+                *ngIf="canApproveReject(claim)"
+                class="btn btn-sm btn-success me-2"
+                (click)="approveClaim(claim)"
+              >
+                Approve
+              </button>
+
+              <!-- Reject -->
+              <button
+                *ngIf="canApproveReject(claim)"
+                class="btn btn-sm btn-danger"
+                (click)="rejectClaim(claim)"
+              >
+                Reject
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

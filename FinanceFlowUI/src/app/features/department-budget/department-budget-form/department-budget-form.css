@@ -1,0 +1,60 @@
+.budget-form-page {
+  padding: 24px;
+}
+
+.form-top {
+  margin-bottom: 24px;
+}
+
+.form-top h2 {
+  margin: 0;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.form-top p {
+  margin: 4px 0 0;
+  color: #6b7280;
+}
+
+.budget-form-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.form-label {
+  font-weight: 600;
+  color: #374151;
+}
+
+.form-control,
+.form-select {
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.cancel-btn {
+  background: #e5e7eb;
+  color: #111827;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.save-btn {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+}

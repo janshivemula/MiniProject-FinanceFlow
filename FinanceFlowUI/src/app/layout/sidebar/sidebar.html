@@ -1,0 +1,43 @@
+<div class="sidebar">
+  <div class="sidebar-brand">
+    <div class="brand-icon">
+      <i class="bi bi-bar-chart-line-fill"></i>
+    </div>
+    <div>
+      <h4>FinanceFlow</h4>
+      <p>Expense System</p>
+    </div>
+  </div>
+
+  <div class="menu-label">MAIN MENU</div>
+
+  <a routerLink="/dashboard" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="menu-item">
+    <i class="bi bi-grid-fill"></i>
+    <span>Dashboard</span>
+  </a>
+
+  <a routerLink="/dashboard/departments" routerLinkActive="active" class="menu-item">
+    <i class="bi bi-diagram-3-fill"></i>
+    <span>Departments</span>
+  </a>
+
+  <a routerLink="/dashboard/employees" routerLinkActive="active" class="menu-item">
+    <i class="bi bi-people-fill"></i>
+    <span>Employees</span>
+  </a>
+
+  <a routerLink="/dashboard/expense-categories" routerLinkActive="active" class="menu-item">
+    <i class="bi bi-tags-fill"></i>
+    <span>Expense Categories</span>
+  </a>
+
+  <a routerLink="/dashboard/department-budgets" routerLinkActive="active" class="menu-item">
+    <i class="bi bi-wallet2"></i>
+    <span>Department Budgets</span>
+  </a>
+
+  <a routerLink="/dashboard/expense-claims" routerLinkActive="active" class="menu-item">
+    <i class="bi bi-receipt-cutoff"></i>
+    <span>Expense Claims</span>
+  </a>
+</div>

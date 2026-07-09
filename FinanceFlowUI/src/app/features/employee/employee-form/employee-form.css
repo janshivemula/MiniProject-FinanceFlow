@@ -1,0 +1,104 @@
+.employee-form-page {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.page-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.page-top h2 {
+  margin: 0;
+  color: #1d2a52;
+  font-weight: 800;
+}
+
+.page-top p {
+  margin: 6px 0 0;
+  color: #7b88a5;
+}
+
+.back-btn {
+  border: 1px solid #d8deef;
+  border-radius: 14px;
+  padding: 10px 16px;
+  font-weight: 600;
+  color: #42506b;
+  background: #fff;
+}
+
+.form-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 14px 34px rgba(31, 50, 98, 0.08);
+}
+
+.form-label {
+  font-weight: 600;
+  color: #34425c;
+  margin-bottom: 8px;
+}
+
+.custom-input {
+  min-height: 48px;
+  border-radius: 14px;
+  border: 1px solid #dbe2f0;
+  padding: 10px 14px;
+  box-shadow: none;
+}
+
+.custom-input:focus {
+  border-color: #6d7ef7;
+  box-shadow: 0 0 0 0.15rem rgba(109, 126, 247, 0.15);
+}
+
+.form-actions {
+  margin-top: 28px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.cancel-btn {
+  border: 1px solid #d8deef;
+  background: #fff;
+  color: #42506b;
+  border-radius: 14px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.save-btn {
+  background: linear-gradient(90deg, #4d68f3 0%, #8450ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 10px 22px;
+  font-weight: 600;
+}
+
+.save-btn:hover {
+  color: #fff;
+  opacity: 0.95;
+}
+
+@media (max-width: 767.98px) {
+  .page-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-actions {
+    flex-direction: column;
+  }
+
+  .cancel-btn,
+  .save-btn {
+    width: 100%;
+  }
+}

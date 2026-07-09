@@ -1,0 +1,80 @@
+<div class="budget-page">
+  <div class="page-top">
+    <div>
+      <h2>Department Budgets</h2>
+      <p>Manage department monthly budgets in FinanceFlow</p>
+    </div>
+
+    <button class="btn add-btn" routerLink="/dashboard/department-budgets/add">
+      <i class="bi bi-plus-circle"></i>
+      Add Budget
+    </button>
+  </div>
+
+  <div class="budget-card">
+    <div *ngIf="errorMessage" class="alert alert-danger mb-3">
+      {{ errorMessage }}
+    </div>
+
+    <div class="table-responsive">
+      <table class="table budget-table align-middle mb-0">
+        <thead>
+          <tr>
+            <th>Department</th>
+            <th>Month</th>
+            <th>Year</th>
+            <th>Budget Amount</th>
+            <th>Status</th>
+            <th class="text-center">Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <ng-container *ngIf="budgets$ | async as budgets">
+            <tr *ngIf="budgets.length === 0">
+              <td colspan="6" class="text-center py-4">No budgets found</td>
+            </tr>
+
+            <tr *ngFor="let budget of budgets">
+              <td class="fw-semibold">{{ budget.departmentName }}</td>
+              <td>{{ budget.month }}</td>
+              <td>{{ budget.year }}</td>
+              <td>₹ {{ budget.budgetAmount }}</td>
+              <td>
+                <span class="status-badge" [ngClass]="budget.isActive ? 'active' : 'inactive'">
+                  {{ getStatusText(budget.isActive) }}
+                </span>
+              </td>
+              <td class="text-center">
+                <ng-container *ngIf="budget.isActive; else inactiveActions">
+                  <button
+                    class="btn btn-sm action-btn edit-btn me-2"
+                    [routerLink]="[
+                      '/dashboard/department-budgets/edit',
+                      budget.departmentId,
+                      budget.month,
+                      budget.year
+                    ]"
+                  >
+                    <i class="bi bi-pencil-square"></i>
+                  </button>
+
+                  <button
+                    class="btn btn-sm action-btn delete-btn"
+                    (click)="deleteBudget(budget.id)"
+                  >
+                    <i class="bi bi-trash3"></i>
+                  </button>
+                </ng-container>
+
+                <ng-template #inactiveActions>
+                  <span class="text-muted">No actions</span>
+                </ng-template>
+              </td>
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

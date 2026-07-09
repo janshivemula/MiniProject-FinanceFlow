@@ -1,0 +1,123 @@
+<div class="expense-form-page">
+  <div class="page-top">
+    <div>
+      <h2>{{ isEditMode ? 'Edit Expense Claim' : 'Add Expense Claim' }}</h2>
+      <p>
+        {{ isEditMode ? 'Update expense claim details' : 'Create a new expense claim in FinanceFlow' }}
+      </p>
+    </div>
+
+    <a routerLink="/dashboard/expense-claims" class="btn back-btn">
+      <i class="bi bi-arrow-left"></i>
+      Back to Claims
+    </a>
+  </div>
+
+  <div class="expense-card">
+    <div *ngIf="pageLoading" class="state-box">
+      Loading form...
+    </div>
+
+    <div *ngIf="!pageLoading && submitError" class="alert alert-danger">
+      {{ submitError }}
+    </div>
+
+    <form *ngIf="!pageLoading" [formGroup]="expenseForm" (ngSubmit)="onSubmit()" novalidate>
+      <div class="form-grid">
+        <!-- Employee -->
+        <div class="form-group">
+          <label for="employeeId">Employee</label>
+          <select id="employeeId" class="form-control" formControlName="employeeId">
+            <option value="">Select employee</option>
+            <option *ngFor="let emp of employees" [value]="emp.employeeId">
+              {{ emp.employeeName }}
+            </option>
+          </select>
+          <small class="error-text" *ngIf="f['employeeId'].touched && f['employeeId'].invalid">
+            Employee is required
+          </small>
+        </div>
+
+        <!-- Expense Category -->
+        <div class="form-group">
+          <label for="expenseCategoryId">Expense Category</label>
+          <select id="expenseCategoryId" class="form-control" formControlName="expenseCategoryId">
+            <option value="">Select category</option>
+            <option *ngFor="let cat of categories" [value]="cat.id">
+              {{ cat.categoryName }}
+            </option>
+          </select>
+          <small class="error-text" *ngIf="f['expenseCategoryId'].touched && f['expenseCategoryId'].invalid">
+            Expense category is required
+          </small>
+        </div>
+
+        <!-- Amount -->
+        <div class="form-group">
+          <label for="amount">Amount</label>
+          <input
+            id="amount"
+            type="number"
+            class="form-control"
+            formControlName="amount"
+            placeholder="Enter amount"
+          />
+          <small class="error-text" *ngIf="f['amount'].touched && f['amount'].invalid">
+            <span *ngIf="f['amount'].errors?.['required']">Amount is required</span>
+            <span *ngIf="f['amount'].errors?.['min']">Amount must be greater than 0</span>
+          </small>
+        </div>
+
+        <!-- Expense Date -->
+        <div class="form-group">
+          <label for="expenseDate">Expense Date</label>
+          <input
+            id="expenseDate"
+            type="date"
+            class="form-control"
+            formControlName="expenseDate"
+          />
+          <small class="error-text" *ngIf="f['expenseDate'].touched && f['expenseDate'].invalid">
+            Expense date is required
+          </small>
+        </div>
+
+        <!-- Description -->
+        <div class="form-group full-width">
+          <label for="description">Description</label>
+          <textarea
+            id="description"
+            rows="4"
+            class="form-control"
+            formControlName="description"
+            placeholder="Enter expense description"
+          ></textarea>
+          <small class="error-text" *ngIf="f['description'].touched && f['description'].invalid">
+            <span *ngIf="f['description'].errors?.['required']">Description is required</span>
+            <span *ngIf="f['description'].errors?.['minlength']">
+              Description must be at least 10 characters
+            </span>
+            <span *ngIf="f['description'].errors?.['maxlength']">
+              Description cannot exceed 250 characters
+            </span>
+          </small>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button type="button" class="btn cancel-btn" routerLink="/dashboard/expense-claims">
+          Cancel
+        </button>
+
+        <button type="submit" class="btn save-btn" [disabled]="loading">
+          <span *ngIf="loading">
+            {{ isEditMode ? 'Updating...' : 'Saving...' }}
+          </span>
+          <span *ngIf="!loading">
+            {{ isEditMode ? 'Update Claim' : 'Save Claim' }}
+          </span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

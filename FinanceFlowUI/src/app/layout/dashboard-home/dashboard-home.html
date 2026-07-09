@@ -1,0 +1,131 @@
+<div class="dashboard-home">
+  <div class="hero-card">
+    <div class="hero-text">
+      <p class="hero-subtitle">FinanceFlow Dashboard</p>
+      <h1>Expense Management Overview</h1>
+      <p class="hero-desc">
+        Track employees, manage budgets, monitor expense claims, and review approvals
+        from one place.
+      </p>
+      <button class="btn hero-btn" (click)="goToClaims()">View Expense Claims</button>
+    </div>
+
+    <div class="hero-graphic">
+      <div class="graphic-card main-card">
+        <div class="circle-icon"><i class="bi bi-bar-chart-fill"></i></div>
+        <div class="graphic-line lg"></div>
+        <div class="graphic-line md"></div>
+        <div class="graphic-bars">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="floating-card small-card one">
+        <i class="bi bi-wallet2"></i>
+        <span>Budgets</span>
+      </div>
+
+      <div class="floating-card small-card two">
+        <i class="bi bi-check-circle-fill"></i>
+        <span>Approvals</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loading -->
+  <div *ngIf="loading" class="dashboard-loading-card">
+    Loading dashboard...
+  </div>
+
+  <!-- Error -->
+  <div *ngIf="!loading && error" class="dashboard-error-card">
+    {{ error }}
+  </div>
+
+  <!-- Dashboard Content -->
+  <ng-container *ngIf="!loading && !error">
+    <div class="row g-4 mt-1">
+      <div class="col-xl-3 col-md-6" *ngFor="let card of summaryCards">
+        <div class="summary-card">
+          <div class="summary-top">
+            <div>
+              <p class="summary-title">{{ card.title }}</p>
+              <h3>{{ card.value }}</h3>
+            </div>
+            <div class="summary-icon">
+              <i class="bi" [ngClass]="card.icon"></i>
+            </div>
+          </div>
+          <p class="summary-change">{{ card.change }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 mt-1">
+      <div class="col-lg-8">
+        <div class="content-card">
+          <div class="card-header-custom">
+            <h4>Monthly Overview</h4>
+            <span>Live summary from FinanceFlow data</span>
+          </div>
+
+          <div class="overview-grid">
+            <div class="overview-item">
+              <div class="overview-label">Employees</div>
+              <div class="overview-value">{{ employees.length }}</div>
+            </div>
+
+            <div class="overview-item">
+              <div class="overview-label">Claims</div>
+              <div class="overview-value">{{ claims.length }}</div>
+            </div>
+
+            <div class="overview-item">
+              <div class="overview-label">Pending</div>
+              <div class="overview-value">
+                {{ claims.filter(c => c.status?.toLowerCase() === 'pending').length }}
+              </div>
+            </div>
+
+            <div class="overview-item">
+              <div class="overview-label">Approved</div>
+              <div class="overview-value">
+                {{ claims.filter(c => c.status?.toLowerCase() === 'approved').length }}
+              </div>
+            </div>
+
+            <div class="overview-item">
+              <div class="overview-label">Rejected</div>
+              <div class="overview-value">
+                {{ claims.filter(c => c.status?.toLowerCase() === 'rejected').length }}
+              </div>
+            </div>
+
+            <div class="overview-item">
+              <div class="overview-label">Budgets</div>
+              <div class="overview-value">{{ budgets.length }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="content-card">
+          <div class="card-header-custom">
+            <h4>Recent Activity</h4>
+            <span>Latest system updates</span>
+          </div>
+
+          <ul class="activity-list">
+            <li *ngFor="let item of recentActivities">
+              <span class="dot"></span>
+              {{ item }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>

@@ -1,0 +1,102 @@
+<div class="employee-form-page">
+  <div class="page-top">
+    <div>
+      <h2>{{ isEditMode ? 'Edit Employee' : 'Add Employee' }}</h2>
+      <p>Create a new employee account in FinanceFlow</p>
+    </div>
+
+    <a routerLink="/dashboard/employees" class="btn back-btn">
+      <i class="bi bi-arrow-left"></i>
+      Back to Employees
+    </a>
+  </div>
+
+  <div class="form-card">
+    <form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <label class="form-label">Employee Name</label>
+          <input type="text" class="form-control custom-input" formControlName="employeeName" />
+          <small class="text-danger" *ngIf="f['employeeName'].touched && f['employeeName'].errors?.['required']">
+            Employee name is required
+          </small>
+          <small class="text-danger" *ngIf="f['employeeName'].touched && f['employeeName'].errors?.['minlength']">
+            Minimum 3 characters required
+          </small>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control custom-input" formControlName="email" />
+          <small class="text-danger" *ngIf="f['email'].touched && f['email'].errors?.['required']">
+            Email is required
+          </small>
+          <small class="text-danger" *ngIf="f['email'].touched && f['email'].errors?.['email']">
+            Enter a valid email
+          </small>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Phone Number</label>
+          <input type="text" class="form-control custom-input" formControlName="phoneNumber" />
+          <small class="text-danger" *ngIf="f['phoneNumber'].touched && f['phoneNumber'].errors?.['required']">
+            Phone number is required
+          </small>
+          <small class="text-danger" *ngIf="f['phoneNumber'].touched && f['phoneNumber'].errors?.['pattern']">
+            Phone number must be 10 digits
+          </small>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Password</label>
+          <input type="password" class="form-control custom-input" formControlName="password" />
+          <small class="text-danger" *ngIf="f['password'].touched && f['password'].errors?.['required']">
+            Password is required
+          </small>
+          <small class="text-danger" *ngIf="f['password'].touched && f['password'].errors?.['pattern']">
+            Password must contain uppercase, lowercase, number and be 8–15 characters
+          </small>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Department</label>
+          <select class="form-select custom-input" formControlName="departmentId">
+            <option value="">Select Department</option>
+            <option *ngFor="let dept of departments" [value]="dept.id">
+              {{ dept.departmentName }}
+            </option>
+          </select>
+          <small class="text-danger" *ngIf="f['departmentId'].touched && f['departmentId'].errors?.['required']">
+            Department is required
+          </small>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Role</label>
+          <select class="form-select custom-input" formControlName="role">
+            <option value="">Select Role</option>
+            <option [value]="0">Employee</option>
+            <option [value]="1">Finance Manager</option>
+          </select>
+          <small class="text-danger" *ngIf="f['role'].touched && f['role'].errors?.['required']">
+            Role is required
+          </small>
+        </div>
+      </div>
+
+      <div *ngIf="submitError" class="alert alert-danger mt-4 mb-0">
+        {{ submitError }}
+      </div>
+
+      <div class="form-actions">
+        <button type="button" routerLink="/dashboard/employees" class="btn cancel-btn">
+          Cancel
+        </button>
+
+        <button type="submit" class="btn btn-primary" [disabled]="loading">
+  {{ isEditMode ? 'Update Employee' : 'Add Employee' }}
+</button>
+      </div>
+    </form>
+  </div>
+</div>

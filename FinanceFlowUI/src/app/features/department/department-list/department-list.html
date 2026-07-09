@@ -1,0 +1,65 @@
+<div class="department-page">
+  <div class="page-top">
+    <div>
+      <h2>Departments</h2>
+      <p>Manage department records in FinanceFlow</p>
+    </div>
+
+    <button class="btn add-btn" routerLink="/dashboard/departments/add">
+      <i class="bi bi-plus-circle"></i>
+      Add Department
+    </button>
+  </div>
+
+  <div class="department-card">
+    <div *ngIf="errorMessage" class="alert alert-danger mb-3">
+      {{ errorMessage }}
+    </div>
+
+    <div class="table-responsive">
+      <table class="table department-table align-middle mb-0">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Department Name</th>
+            <th>Status</th>
+            <th class="text-center">Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <ng-container *ngIf="departments$ | async as departments">
+            <tr *ngIf="departments.length === 0">
+              <td colspan="4" class="text-center py-4">No departments found</td>
+            </tr>
+
+            <tr *ngFor="let dept of departments">
+              <td>{{ dept.id }}</td>
+              <td class="fw-semibold">{{ dept.departmentName }}</td>
+              <td>
+                <span class="status-badge" [ngClass]="dept.isActive ? 'active' : 'inactive'">
+                  {{ getStatusText(dept.isActive) }}
+                </span>
+              </td>
+              <td class="text-center">
+                <button
+                  class="btn btn-sm action-btn edit-btn me-2"
+                  [routerLink]="dept.isActive ? ['/dashboard/departments/edit', dept.id] : null"
+                  [disabled]="!dept.isActive">
+                  <i class="bi bi-pencil-square"></i>
+                </button>
+
+                <button
+                  class="btn btn-sm action-btn delete-btn"
+                  (click)="deleteDepartment(dept.id)"
+                  [disabled]="!dept.isActive">
+                  <i class="bi bi-trash3"></i>
+                </button>
+              </td>
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

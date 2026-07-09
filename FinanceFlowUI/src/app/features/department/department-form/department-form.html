@@ -1,0 +1,35 @@
+<div class="department-form-page">
+  <div class="form-card">
+    <div class="form-header">
+      <h2>{{ isEditMode ? 'Edit Department' : 'Add Department' }}</h2>
+      <p>{{ isEditMode ? 'Update department details' : 'Create a new department' }}</p>
+    </div>
+
+    <div *ngIf="submitError" class="alert alert-danger">
+      {{ submitError }}
+    </div>
+
+    <form [formGroup]="departmentForm" (ngSubmit)="onSubmit()">
+      <div class="mb-3">
+        <label class="form-label">Department Name</label>
+        <input type="text" class="form-control" formControlName="departmentName" />
+
+        <div class="text-danger mt-1" *ngIf="f['departmentName'].touched && f['departmentName'].invalid">
+          <small *ngIf="f['departmentName'].errors?.['required']">Department name is required</small>
+          <small *ngIf="f['departmentName'].errors?.['minlength']">Minimum 2 characters required</small>
+          <small *ngIf="f['departmentName'].errors?.['maxlength']">Maximum 50 characters allowed</small>
+        </div>
+      </div>
+
+      <div class="d-flex gap-2 mt-4">
+        <button type="submit" class="btn save-btn" [disabled]="loading">
+          {{ loading ? 'Saving...' : (isEditMode ? 'Update Department' : 'Add Department') }}
+        </button>
+
+        <button type="button" class="btn cancel-btn" routerLink="/dashboard/departments">
+          Cancel
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

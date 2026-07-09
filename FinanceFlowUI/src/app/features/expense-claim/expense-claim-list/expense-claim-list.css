@@ -1,0 +1,152 @@
+.expense-page {
+  padding: 24px;
+}
+
+.page-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.page-top h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.page-top p {
+  margin: 4px 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.claim-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+  border: 1px solid #eef2f7;
+}
+
+.state-box {
+  padding: 24px;
+  text-align: center;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.claim-table {
+  margin-bottom: 0;
+}
+
+.claim-table thead th {
+  background: #f8fafc;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 14px;
+  white-space: nowrap;
+}
+
+.claim-table tbody td {
+  padding: 14px;
+  vertical-align: middle;
+  border-bottom: 1px solid #f1f5f9;
+  color: #334155;
+  font-size: 14px;
+}
+
+.claim-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  min-width: 90px;
+  text-align: center;
+}
+
+.status-pending {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.status-approved {
+  background: #ecfdf5;
+  color: #15803d;
+}
+
+.status-rejected {
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+.action-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  transition: 0.2s ease;
+}
+
+.edit-btn {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.edit-btn:hover {
+  background: #dbeafe;
+}
+
+.delete-btn {
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+.delete-btn:hover {
+  background: #fee2e2;
+}
+
+.approve-btn {
+  background: #ecfdf5;
+  color: #15803d;
+}
+
+.approve-btn:hover {
+  background: #d1fae5;
+}
+
+.reject-btn {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.reject-btn:hover {
+  background: #ffedd5;
+}
+
+.info-line {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+.desc-text {
+  max-width: 250px;
+  white-space: normal;
+  word-break: break-word;
+  color: #475569;
+}
+
+.empty-text {
+  text-align: center;
+  padding: 30px;
+  color: #64748b;
+  font-weight: 600;
+}
